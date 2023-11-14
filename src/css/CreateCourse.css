@@ -1,0 +1,45 @@
+
+.create-course {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 16px;
+  }
+  
+
+  .create-course form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+  
+
+  .create-course label {
+    margin-bottom: 8px;
+  }
+  
+  .create-course input[type="text"],
+  .create-course textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+  
+
+  .create-course button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-course button:hover {
+    background-color: #0056b3;
+  }
+  
