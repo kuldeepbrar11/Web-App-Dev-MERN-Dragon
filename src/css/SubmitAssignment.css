@@ -1,0 +1,69 @@
+
+
+.submit-assignment {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif; 
+  }
+  
+  .submit-assignment h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .submit-assignment p {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .submit-assignment form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .submit-assignment div {
+    margin-bottom: 15px;
+  }
+  
+  .submit-assignment label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .submit-assignment input,
+  .submit-assignment textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  .submit-assignment button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .submit-assignment button[type="button"] {
+    background-color: #f44336;
+  }
+  
+  .submit-assignment button:hover {
+    background-color: #45a049;
+  }
+  
+  .submit-assignment button[type="button"]:hover {
+    background-color: #e53935;
+  }
+  
